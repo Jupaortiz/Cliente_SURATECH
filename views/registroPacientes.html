@@ -36,7 +36,6 @@
               </div>
             </div>
           </nav>
-
     </header>
         <main>
             <section class="container my-5">
@@ -48,59 +47,64 @@
                             <div class="row">
                                 <div class="col-6">
                                     <label class="form-label">Nombre:</label>
-                                    <input type="text" class="form-control" id="nombremedico">
+                                    <input type="text" class="form-control" id="nombrepaciente">
                                 </div>
                                 <div class="col-6">
-                                    <label class="form-label">Matricula:</label>
-                                    <input type="number" class="form-control" id="matriculamedico">
+                                    <label class="form-label">Fecha Nacimiento:</label>
+                                    <input type="date" class="form-control" id="nacimientoPaciente">
                                 </div>
                             </div>
                             <div class="row my-3">
                                 <div class="col-6">
-                                    <label class="form-label">Especialidad:</label>
-                                    <input type="text" class="form-control" id="especialidadmedico">
+                                    <label class="form-label">Ciudad:</label>
+                                    <input type="text" class="form-control" id="ciudadpaciente">
                                 </div>
                                 <div class="col-6">
-                                    <label class="form-label">Salario:</label>
-                                    <input type="number" class="form-control" id="salariomedico">
+                                    <label class="form-label">correo:</label>
+                                    <input type="text" class="form-control" id="correopaciente">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
                                     <label class="form-label">Telefono:</label>
-                                    <input type="number" class="form-control" id="telefonomedico">
+                                    <input type="text" class="form-control" id="telefonopaciente">
                                 </div>
                                 <div class="col-6">
-                                    <label class="form-label">Correo</label>
-                                    <input type="text" class="form-control" id="correopaciente">
+                                    <label class="form-label">Ips:</label>
+                                    <input type="text" class="form-control" id="ipspaciente">
                                 </div>                           
                             </div>
-                            <div class="row my-3">
+                            <div class="row">
                                 <div class="col-6">
-                                    <label class="form-label">Direcion:</label>
-                                    <input type="text" class="form-control" id="direcionmedico">
+                                    <label class="form-label">Fecha Afiliacion:</label>
+                                    <input type="date" class="form-control" id="afiliacionpaciente">
                                 </div>
                                 <div class="col-6">
-                                    <label class="form-label">Ips Asociada:</label>
-                                    <input type="text" class="form-control" id="ipsmedico">
+                                    <label class="form-label">Grupo Ingreso:</label>
+                                    <select class="form-select" aria-label="Default select example" id="grupoingreso">
+                                        <option selected>Selececiona el grupo de ingreso</option>
+                                        <option value="a">A</option>
+                                        <option value="b">B</option>
+                                        <option value="c">C</option>
+                                      </select>
                                 </div>                           
                             </div>
                             <div class="row my-3">
                                 <div class="mb-3 form-check ms-3">
-                                    <input type="checkbox" class="form-check-input" id="findesemana">
-                                    <label class="form-check-label">¿Trabaja los fines de semana?</label>
+                                    <input type="checkbox" class="form-check-input" id="tienepoliza">
+                                    <label class="form-check-label">¿El paciente tiene poliza?</label>
                                 </div>
                             </div>
-                            <button class="btn btn-primary w-100">Registrar</button>
+                            <button type="button"class="btn btn-primary w-100" id="botonregistropaciente">Registrar</button>
                         </form>
 
                     </div>
                     <div class="col-12 col-md-4 align-self-center">
-                        <h3>Registra nuestros medicos</h3>
+                        <h3>Registra nuestros pacientes</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nihil commodi. Ratione, maxime reprehenderit. Iste, ipsum rem. Saepe ad rerum reiciendis similique quam dolore expedita, deserunt magni deleniti, placeat eveniet ipsum. Quas deserunt, perferendis dolorum dolorem eos molestias quidem culpa!
                         </p>
-                        <img src="../../assets/img/medico feliz.jfif" alt="" class="img-fluid">
+                        <img src="../../assets/img/paciente feliz.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
             </section>
@@ -109,3 +113,9 @@
     <footer>
 
     </footer>
+  
+    <script src="../../controllers/controladorRegistroPaciente.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

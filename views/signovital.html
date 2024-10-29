@@ -44,15 +44,34 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="container-fluid menu p-3 text-white">
             <div class="row">
                 <div class="col-12 col-md-5">
                     <img src="../../assets/img/signos.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-7">
-                    <form>
+                    <form class="botder rounded shadow p-5">
 
+                        <div class="row">
+                            <div class="col-6">
+                                <label class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="nombreSigno">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Valor:</label>
+                                <input type="text" class="form-control" id="valorSigno">
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-6">
+                                <label class="form-label">Fecha Medida:</label>
+                                <input type="date" class="form-control" id="fechaSigno">
+                            </div>
+                           
+                        </div>
+                        
+                        <button type="button"class="btn btn-primary w-100" id="botonregistrosigno">Registrar</button>
                     </form>
                 </div>
             </div>

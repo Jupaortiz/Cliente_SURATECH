@@ -7,7 +7,7 @@ let cajaProbabilidadvivir=document.getElementById("probabilidadvivir")
 
 let botonRegostroEnfermedad=document.getElementById("registroenfermedad")
 //Detectar el evento de click en el boton
-botonRegostroEnfermedad.addEventListener("click",function(evento){
+botonRegistroEnfermedad.addEventListener("click",function(evento){
     evento.preventDefault()
 
     //Recojer los datos
