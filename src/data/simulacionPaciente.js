@@ -6,8 +6,8 @@ export let pacientesSimulados=Array(
         anioNacimiento:2000,
         ciudad: "Medellin",
         correo:"juanportiz.1120@gmail.com",
-        telefono:"31263362220",
-        ips:"Sura",
+        telefono:"312633220",
+        ips:"Sura Chapinero",
         tienePoliza:true,
         grupoIngreso:"A",
         fechaAfiliacion:"2022-08-25"
@@ -17,9 +17,9 @@ export let pacientesSimulados=Array(
        nombre:"Pedro Perez",
        anioNacimiento:1990,
        ciudad: "Medellin",
-       correo:"Cali",
+       correo:"pedroper1990@gmail.com",
        telefono:"3108905562",
-       ips:"Nueva Eps",
+       ips:"Punto de Vista Sura",
        tienePoliza:true,
        grupoIngreso:"B",
        fechaAfiliacion:"2002-08-15"
@@ -31,7 +31,7 @@ export let pacientesSimulados=Array(
         ciudad: "Bogotá",
         correo: "mferlopez@gmail.com",
         telefono: "3204567890",
-        ips: "Coomeva",
+        ips: "Sura La Flora",
         tienePoliza: true,
         grupoIngreso: "B",
         fechaAfiliacion: "2021-06-15"
@@ -43,7 +43,7 @@ export let pacientesSimulados=Array(
         ciudad: "Cali",
         correo: "carlos.martinez@yahoo.com",
         telefono: "3119876543",
-        ips: "Sanitas",
+        ips: "Sura El Poblado",
         tienePoliza: false,
         grupoIngreso: "C",
         fechaAfiliacion: "2023-03-10"
@@ -55,7 +55,7 @@ export let pacientesSimulados=Array(
         ciudad: "Barranquilla",
         correo: "laura.gomez@hotmail.com",
         telefono: "3101234567",
-        ips: "Compensar",
+        ips: "Sura Laureles",
         tienePoliza: true,
         grupoIngreso: "A",
         fechaAfiliacion: "2020-11-20"
