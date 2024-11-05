@@ -31,7 +31,7 @@ botonRegistroPaciente.addEventListener("click",function(evento){
         gurpoIngreso:cajaGrupoIngreso.value,
         fechaAfiliacion:cajaFechaAfiliacion.value
     }
-    console.log(datosFormularioPaciente)
+    console.log(datosFormularioPaciente);
 
     Swal.fire({
         title: "¡Buen trabajo!",
